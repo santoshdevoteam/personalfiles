@@ -1,3 +1,0 @@
-# SNTimeout
-ServiceNow Timeout --
-Check out the Wiki...
