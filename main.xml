@@ -33,8 +33,8 @@
 					</wsp:All>
 				</wsp:ExactlyOne>
 			</wsp:Policy>
-			<wsdl:import namespace="http://schemas.microsoft.com/netfx/2009/05/routing" location="http://212.130.80.60/MicrosoftDynamicsAXAif60/EDIServiceGroup/xppservice.svc?wsdl=wsdl0"/>
-			<wsdl:import namespace="http://tempuri.org" location="http://212.130.80.60/MicrosoftDynamicsAXAif60/EDIServiceGroup/xppservice.svc?wsdl=wsdl1"/>
+			<wsdl:import namespace="http://schemas.microsoft.com/netfx/2009/05/routing" location="https://rawgit.com/santoshdevoteam/personalfiles/master/wsdl0.xml"/>
+			<wsdl:import namespace="http://tempuri.org" location="https://rawgit.com/santoshdevoteam/personalfiles/master/wsdl1.xml"/>
 			<wsdl:types/>
 			<wsdl:binding name="serviceEndpoint" type="i0:IRequestReplyRouter">
 				<wsp:PolicyReference URI="#serviceEndpoint_policy"/>
